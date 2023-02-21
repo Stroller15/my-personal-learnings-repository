@@ -1,0 +1,25 @@
+h1 {
+    border: 2px dashed red;
+    -webkit-border-radius: 2px solid red;
+    -moz-border-radius: 2px solid red;
+    -ms-border-radius: 2px solid red;
+    -o-border-radius: 2px solid red;
+}
+
+/* mostly used font in px , % , rem , em */
+
+
+h1 {
+    /* width: 880px; */
+    width: 50%;
+}
+
+main {
+    font-size: 4rem;
+}
+
+/* p {
+    font-size: 1rem;
+} */
+
+ 
