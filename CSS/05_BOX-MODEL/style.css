@@ -1,8 +1,51 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  /* border box does all content padding border margin only size of width */
+}
 
+.container {
+  border: 10px outset red;
+  border: 10px outline red;
+  /* border-top: 4px dashed black;
+  border-bottom: 5px solid green; */
 
-h1 {
-    border: 2px dashed red;
-    width: 50%;
-    font-size: 3rem;
-    padding: 0.5em;
+  /* This width will be 400px including all content , border , margin , padding */
+
+  font-size: 1.5rem;
+  margin: 1.5em;
+  padding: 1em;
+  /* margin-top: 1em;
+    margin-right: 2em;
+    margin-left: 2em;
+    margin-bottom: 2em;
+    margin-right: 2em;
+    padding: 1em; */
+
+  padding: 1.5em;
+  outline: 5px solid purple;
+  outline-offset: -20px;
+}
+
+.circle {
+  font-size: 1.5rem;
+  margin: 1em;
+  padding: 1em;
+  border: 10px outset green;
+}
+
+.c {
+  background-color: yellow;
+  width: 100px;
+  height: 100px;
+  margin: 3rem auto;
+  outline: 2px solid red;
+  outline-offset: 0.25rem;
+  border: 2px solid black;
+  border-radius: 50px;
+  -webkit-border-radius: 50px;
+  -moz-border-radius: 50px;
+  -ms-border-radius: 50px;
+  -o-border-radius: 50px;
 }
