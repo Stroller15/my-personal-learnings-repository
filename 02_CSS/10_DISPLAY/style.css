@@ -1,0 +1,30 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+main {
+    font-size: 2rem;
+}
+
+nav {
+    background-color: black;
+}
+
+ul {
+    list-style-type: none;
+    text-align: right;
+    padding: .5rem;
+}
+a {
+    text-decoration: none;
+}
+li {
+    display: inline-block;
+    color: aliceblue; 
+}
+
+li a:hover {
+    background-color: red;
+    text-decoration: underline;
+}
