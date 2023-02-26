@@ -1,0 +1,34 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body {
+    font-size: 2rem;
+    margin: 2rem;
+}
+
+.block {
+    width: 30vw;
+    height: 30vh;
+    background-color: black;
+    color: white;
+    padding: 1rem;
+}
+
+p {
+    margin: 1rem 0;
+    padding: 1rem;
+    background-color: blue;
+}
+
+.left {
+    float: left;
+    margin-right: 1rem;
+}
+
+.right {
+    float: right;
+    color: whitesmoke;
+    margin-left: 2rem;
+}
