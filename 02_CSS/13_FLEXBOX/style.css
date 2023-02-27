@@ -2,22 +2,29 @@
     margin: 0;
     padding: 0;
     box-sizing: border-box;
+    /* border: 2px solid red; */
 }
-
 body {
-    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
-
-    min-height: 100vh;
-    padding: 20px;
+    margin: 5px;
 }
-
 .container {
-    max-width: 800px;
-    min-height: 400px;
-    margin-inline: auto;
+    display: flex;
+    border: 2px solid black;
+    height: 45vh;
+    /* flex-direction: column;
+    flex-direction: row;
+    flex-direction: row-reverse;
+    flex-direction: column-reverse; */
+    /* justify-content: center;
+    justify-content: end;
+    justify-content: start; */
+    /* align-items: center; */
+    flex-wrap: wrap;
 
 }
-
 .box {
-    background-color: black;
+    background-color: red;
+    margin: 1rem;
+    width: 5rem;
+    height: 5rem;
 }
