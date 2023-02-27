@@ -1,0 +1,18 @@
+.container {
+    width: 700px;
+    height: 700px;
+    background-color: aqua;
+    display: grid;
+    /* grid-template-rows: 133px 133px 133px;
+    grid-template-columns:133px 133px 133px ; */
+
+    grid-template-rows: repeat(3, 1fr);
+    grid-template-columns: repeat(3 ,1fr);
+}
+
+.item {
+    /* width: 50px;
+    height: 50px; */
+    background-color: red;
+    margin: 5px;
+}
