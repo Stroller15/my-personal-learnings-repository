@@ -2,7 +2,7 @@
     "rewrites": [
         {
             "source": "/api/(.*)",
-            "destination": "https://your-api.domain/$1"
+            "destination": "https://learning-backend-ektz.onrender.com/$1"
         },
         {
             "source": "/(.*)",
